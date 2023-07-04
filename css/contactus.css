@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+::selection {
+    background-color: lightgreen;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/* START  */
+
+.main {
+    background-image: url(../image/Contact-Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding-bottom: 590px;
+    margin-bottom: 100px;
+}
+
+.navbar-logo{
+    padding-bottom: 70px;
+}
+
+.navbar-logo img{
+    padding-top: 50px;
+    width: 100px;
+    margin-left: 25px;
+}
+
+.navbar-menu {
+    text-align: right;
+    padding-top: 50px;
+}
+
+.navbar-menu ul {
+    padding: 0;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.navbar-menu ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.main h1{
+    margin: 0 auto;
+    text-align: center;
+    color: #2c541d;
+    font-size: 70px;
+    padding-top: 100px;
+    letter-spacing: 10px;
+}
+
+.block-2
+{
+    padding-left: 50px;
+    margin-bottom: 200px;
+}
+
+.block-2 h1
+{
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.block-2 h4
+{
+    font-weight: 400;
+    font-size: 18px;
+    color: #585858;
+    padding-bottom: 15px;
+}
+
+.block-2 p
+{
+    /* font-weight: 400; */
+    font-size: 24px;
+    color: #2c541d;
+    padding-bottom: 50px;
+    max-width: 250px;
+}
+
+
+.block-2 h5
+{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.smallbox i{
+    font-size: 26px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #74a84a;
+}
+
+.colouredicons i{
+    font-size: 22px;
+    color: white;
+    padding: 9px 10px;
+    background-color: #74a84a;
+}
+
+.colouredicons i:hover{
+    font-size: 22px;
+    color: white;
+    margin: 2px;
+    padding: 5px;
+    background-color: #2c541d;
+    border: 2px solid #2c541d;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background: #fafafa;
+}
+
+textarea {
+    background: #fafafa;
+    height: 150px;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+.submitbutton button
+{
+    background-color: #74a84a;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.submitbutton button:hover
+{
+    background-color: #2c541d;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+
+.footer
+{
+    text-align: center;
+}
+
+.fnavbar-logo img{
+    width: 80px;
+    margin: 40px 160px;
+}
+
+.fnavbar-menu ul {
+    padding: 0;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+.fnavbar-menu ul li {
+    display: inline-block;
+    padding: 40px 20px;
+}
+
+.fnavbar-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.trademark p
+{
+    font-size: 15px;
+    text-align: center;
+    margin: 40px 0px;
+}
